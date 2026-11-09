@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#09120e" />
+  <meta name="description" content="LIFe — a step toward native interaction for humanoid robots. Move by teleop. Interact natively." />
+  <meta name="author" content="Qihan Zhao, Jiayang He, Yinhuai Wang, Ping Tan" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LIFe — Move by teleop. Interact natively." />
+  <meta property="og:description" content="A step toward native interaction for humanoid robots. Explore the real-robot demo." />
+  <meta property="og:image" content="https://qihanzhao.github.io/LIFe/assets/images/poster.jpg" />
+  <meta property="og:url" content="https://qihanzhao.github.io/LIFe/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LIFe — Native Interaction for Humanoid Robots" />
+  <meta name="twitter:description" content="Move by teleop. Interact natively." />
+  <meta name="twitter:image" content="https://qihanzhao.github.io/LIFe/assets/images/poster.jpg" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="assets/images/hero.jpg" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>LIFe — Native Interaction for Humanoid Robots</title>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="LIFe home">LIF<span>e</span><i></i></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#film">THE FILM</a>
+        <a href="#idea">THE IDEA</a>
+        <a href="#moments">HIGHLIGHTS</a>
+      </nav>
+      <a class="header-action" href="#film"><span>Explore the demo</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="hero-topline reveal"><span class="pulse"></span> HUMANOID × PHYSICAL INTERACTION <span class="hero-topline-right">A RESEARCH DEMO</span></div>
+        <div class="hero-main">
+          <div class="hero-copy reveal">
+            <div class="overline">INTRODUCING <b>LIFe</b></div>
+            <h1 id="hero-title">Move by <em>teleop.</em><br />Interact <span>natively.</span></h1>
+            <p class="hero-description">A step toward <strong>native interaction</strong> for humanoid robots.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#film"><span class="play-triangle" aria-hidden="true"></span> Watch the film <span class="button-arrow">↗</span></a>
+              <a class="text-link" href="#idea">Explore the vision <span aria-hidden="true">↘</span></a>
+            </div>
+            <div class="hero-credits" aria-label="Authors and affiliations">
+              <p class="hero-credits-label">RESEARCH TEAM</p>
+              <div class="hero-author-list">
+                <span class="hero-author"><a href="https://github.com/QihanZhao" target="_blank" rel="noopener noreferrer">Qihan Zhao</a><sup>1,2,*</sup></span>
+                <span class="hero-author"><a href="https://github.com/WeiYoung1013" target="_blank" rel="noopener noreferrer">Jiayang He</a><sup>2,*</sup></span>
+                <span class="hero-author"><a href="https://wyhuai.github.io/info/" target="_blank" rel="noopener noreferrer">Yinhuai Wang</a><sup>1,2,*</sup></span>
+                <span class="hero-author"><a href="https://ece.hkust.edu.hk/pingtan" target="_blank" rel="noopener noreferrer">Ping Tan</a><sup>1,2</sup></span>
+              </div>
+              <div class="hero-affiliations"><span><sup>1</sup> HKUST</span><span><sup>2</sup> SLAI</span></div>
+              <p class="hero-equal"><sup>*</sup> Equal contribution</p>
+            </div>
+          </div>
+          <div class="hero-photo-wrap reveal">
+            <img class="hero-photo" src="assets/images/hero.jpg" fetchpriority="high" alt="A Unitree G1 holding a basketball beside a VR motion-control operator" />
+            <div class="photo-overlay" aria-hidden="true"></div>
+            <div class="hero-photo-tag"><span class="tiny-green-dot"></span> REAL ROBOT · UNITREE G1</div>
+            
+          </div>
+        </div>
+        <div class="hero-bottomline"><span>LEARNED INTERACTION COMPETENCE</span><span class="line-rule"></span><span>SCROLL TO EXPLORE ↓</span></div>
+      </section>
+
+      <section class="film-section" id="film" aria-labelledby="film-title">
+        <div class="section-heading reveal"><div><p class="eyebrow">01 — THE FILM</p><h2 id="film-title">See interaction <i>in motion.</i></h2></div><p class="section-caption">Real-world humanoid interaction,<br />one moment at a time.</p></div>
+        <div class="film-stage reveal">
+          <video id="demo-video" class="demo-video" controls playsinline preload="metadata" poster="assets/images/poster.jpg" aria-label="LIFe real-world humanoid demonstration">
+            <source src="assets/video/life-demo.mp4" type="video/mp4" />
+            Your browser does not support HTML5 video. <a href="assets/video/life-demo.mp4">View the demo file</a>.
+          </video>
+          <button class="video-launch" id="video-launch" type="button" aria-label="Play the LIFe demonstration"><span class="video-launch-circle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7z"/></svg></span><span class="video-launch-text">PLAY THE DEMO <small>01:33 · WITH SOUND</small></span></button>
+          <span class="video-corner-label">LIFe <span>— REAL WORLD DEMO</span></span>
+        </div>
+        <div class="chapter-bar reveal" aria-label="Jump to a section of the demo">
+          <div class="chapter-label">JUMP TO A MOMENT <span>↘</span></div>
+          <button class="chapter active" data-time="3"><span>00:03</span> Catch</button>
+          <button class="chapter" data-time="8"><span>00:08</span> Continuous interaction</button>
+          <button class="chapter" data-time="36"><span>00:36</span> Exchange</button>
+          <button class="chapter" data-time="60"><span>01:00</span> Reorient</button>
+        </div>
+      </section>
+
+      <section class="vision-section" id="idea" aria-labelledby="idea-title">
+        <div class="vision-grid">
+          <div class="vision-left reveal"><p class="eyebrow eyebrow-dark">02 — THE IDEA</p><p class="vision-side-quote">Movement is only<br />half the story.</p><span class="vision-mark" aria-hidden="true">↗</span></div>
+          <div class="vision-right reveal">
+            <h2 id="idea-title">Humanoids have learned <em>how to move.</em><br /><span>Now, how do they interact?</span></h2>
+            <p>Beautiful whole-body motion is not the same as reliable physical interaction. The difficult moments happen at contact: approaching an object, securing it, keeping hold, adapting to changes, and letting go.</p>
+            <p>We envision interaction as a <strong>native capability</strong> of humanoid robots—so people can guide movement without having to micromanage every physical contact. <strong>LIFe is one step in that direction.</strong></p>
+            <div class="vision-equation"><div><small>HUMAN</small><strong>Guides motion</strong></div><span class="vision-plus">+</span><div><small>ROBOT</small><strong>Handles interaction</strong></div><span class="vision-equals">→</span><div class="vision-outcome"><small>OUR DIRECTION</small><strong>Native interaction</strong></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="moments-section" id="moments" aria-labelledby="moments-title">
+        <div class="section-heading reveal"><div><p class="eyebrow">03 — THE MOMENTS</p><h2 id="moments-title">Beyond a single <i>trick.</i></h2></div><p class="section-caption">A glimpse of the interactions<br />shown in the film.</p></div>
+        <div class="moments-grid">
+          <a class="moment moment-wide reveal" href="#film" data-seek="8"><img loading="lazy" decoding="async" src="assets/images/continuity.jpg" alt="Humanoid carrying a ball through a continuous motion sequence while an operator guides movement" /><div class="moment-shade"></div><span class="moment-number">01 / CONTINUITY</span><div class="moment-bottom"><h3>Carry the interaction forward.</h3><p>Hold · carry · ball fake · throw</p></div><span class="moment-open" aria-label="Play at this moment">↗</span></a>
+          <a class="moment reveal" href="#film" data-seek="3"><img loading="lazy" decoding="async" src="assets/images/catch.jpg" alt="Humanoid catching a thrown ball" /><div class="moment-shade"></div><span class="moment-number">02 / REACTION</span><div class="moment-bottom"><h3>Respond to the unexpected.</h3><p>Dynamic ball catching</p></div><span class="moment-open" aria-label="Play at this moment">↗</span></a>
+          <a class="moment reveal" href="#film" data-seek="60"><img loading="lazy" decoding="async" src="assets/images/chair.jpg" alt="Humanoid reorienting a chair" /><div class="moment-shade"></div><span class="moment-number">03 / ADAPTATION</span><div class="moment-bottom"><h3>Interact beyond the ball.</h3><p>Object reorientation</p></div><span class="moment-open" aria-label="Play at this moment">↗</span></a>
+          <a class="moment reveal" href="#film" data-seek="36"><img loading="lazy" decoding="async" src="assets/images/exchange.jpg" alt="Person exchanging a ball with a humanoid robot" /><div class="moment-shade"></div><span class="moment-number">04 / COLLABORATION</span><div class="moment-bottom"><h3>Keep the human in the loop.</h3><p>Human–robot pass & catch</p></div><span class="moment-open" aria-label="Play at this moment">↗</span></a>
+        </div>
+      </section>
+
+      <section class="ending" aria-label="Project summary">
+        <p class="ending-eyebrow reveal">THE DIRECTION IS CLEAR</p>
+        <p class="ending-title reveal">Less micromanaging.<br /><span>More interaction.</span></p>
+        <p class="ending-body reveal">LIFe is an exploration of the next layer of humanoid intelligence: not just moving through the world, but physically engaging with it.</p>
+        <a href="#film" class="button button-primary reveal">Replay the film <span class="button-arrow">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div><a class="brand footer-brand" href="#top">LIF<span>e</span><i></i></a><p>Native interaction for humanoid robots.</p></div>
+      <div class="footer-col"><span>PROJECT</span><a href="#film">Film ↗</a><a href="#idea">Vision ↗</a><a href="#moments">Highlights ↗</a></div>
+      <div class="footer-col"><span>CONNECT</span><a href="https://github.com/QihanZhao" target="_blank" rel="noopener noreferrer">Qihan Zhao · GitHub ↗</a><a href="https://scholar.google.com/citations?user=36UHwBQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> LIFe research project.</span><span>MADE TO MOVE. BUILT TO INTERACT.</span></div>
+    </footer>
+  </div>
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
